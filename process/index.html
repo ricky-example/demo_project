@@ -4,27 +4,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
+        
         <meta name="author" content="demo author">
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Data_science project</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome.min.css" rel="stylesheet">
-        <link href="css/brands.min.css" rel="stylesheet">
-        <link href="css/solid.min.css" rel="stylesheet">
-        <link href="css/v4-font-face.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>process - Data_science project</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
         <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Data_science project</a>
+                <a class="navbar-brand" href="..">Data_science project</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,13 +35,13 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="nav-item">
-                                <a href="." class="nav-link active" aria-current="page">Home</a>
+                                <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="process/" class="nav-link">process</a>
+                                <a href="./" class="nav-link active" aria-current="page">process</a>
                             </li>
                             <li class="nav-item">
-                                <a href="tools/" class="nav-link">tools</a>
+                                <a href="../tools/" class="nav-link">tools</a>
                             </li>
                         </ul>
 
@@ -52,12 +52,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="process/" class="nav-link">
+                                <a rel="next" href="../tools/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -79,12 +79,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#welcome-to-data-science-docs" class="nav-link">Welcome to Data Science Docs</a>
+            <li class="nav-item" data-bs-level="1"><a href="#the-data-science-process" class="nav-link">The Data Science Process</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#what-is-data-science" class="nav-link">What is Data Science?</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -92,14 +88,42 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-data-science-docs">Welcome to Data Science Docs</h1>
-<p>This site contains basic documentation for anyone starting out in data science.<br />
-We cover common processes, tools, and best practices used by data scientists.</p>
-<h2 id="what-is-data-science">What is Data Science?</h2>
-<p>Data science is the field of using data to generate insights and solve problems.<br />
-It combines techniques from statistics, computer science, and domain expertise to extract meaningful patterns from raw data.</p>
-<hr />
-<p>Use the menu to explore topics like the data science process and popular tools.</p></div>
+<h1 id="the-data-science-process">The Data Science Process</h1>
+<p>The typical data science workflow involves several key steps:</p>
+<ol>
+<li>
+<p><strong>Problem Understanding</strong><br />
+   Define the question you're trying to answer.</p>
+</li>
+<li>
+<p><strong>Data Collection</strong><br />
+   Gather data from relevant sources (databases, APIs, files, etc.).</p>
+</li>
+<li>
+<p><strong>Data Cleaning</strong><br />
+   Remove missing values, fix formatting, and handle outliers.</p>
+</li>
+<li>
+<p><strong>Exploratory Data Analysis (EDA)</strong><br />
+   Use plots and statistics to understand patterns and trends.</p>
+</li>
+<li>
+<p><strong>Model Building</strong><br />
+   Train machine learning models using the cleaned data.</p>
+</li>
+<li>
+<p><strong>Evaluation</strong><br />
+   Test how well your model performs using metrics like accuracy or RMSE.</p>
+</li>
+<li>
+<p><strong>Deployment</strong><br />
+   Make the model available for use via APIs or web apps.</p>
+</li>
+<li>
+<p><strong>Monitoring</strong><br />
+   Continuously track performance and improve the model as needed.</p>
+</li>
+</ol></div>
             </div>
         </div>
 
@@ -107,13 +131,13 @@ It combines techniques from statistics, computer science, and domain expertise t
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -178,8 +202,3 @@ It combines techniques from statistics, computer science, and domain expertise t
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.6.1
-Build Date UTC : 2025-07-28 01:52:48.837353+00:00
--->
